@@ -22,7 +22,7 @@ bool Window::initialize()
 
 	if (SDL_Init(SDL_INIT_EVERYTHING) < 0)
 	{
-		std::cout << "SDL could not initialize! SDL_Error: " << SDL_GetError() << std::endl;
+		std::cout << "SDL could not initialize! SDL_Error:  " << SDL_GetError() << std::endl;
 		success = false;
 	}
 	else
